@@ -1,0 +1,23 @@
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.exe.config
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.exe
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.pdb
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.xml
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.vbproj.AssemblyReference.cache
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.Resources.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.vbproj.GenerateResource.cache
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.vbproj.CoreCompileInputs.cache
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.exe
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.xml
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.pdb
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.SplashScreen1.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.LoginForm1.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.Menú.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.vistas.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.tablas.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.Datos.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.exe.manifest
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\bin\Debug\proyecto BDA.application
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.exe.manifest
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto BDA.application
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.catalogo.resources
+C:\Users\Gordolui\Documents\noveno semestre\Bases de Datos Avanzadas\proyecto bda\proyecto BDA\obj\Debug\proyecto_BDA.Desarrollador.resources

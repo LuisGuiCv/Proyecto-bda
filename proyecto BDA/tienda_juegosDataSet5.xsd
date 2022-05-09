@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="tienda_juegosDataSet5" targetNamespace="http://tempuri.org/tienda_juegosDataSet5.xsd" xmlns:mstns="http://tempuri.org/tienda_juegosDataSet5.xsd" xmlns="http://tempuri.org/tienda_juegosDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="tienda_juegosConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="tienda_juegosConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.proyecto_BDA.My.MySettings.GlobalReference.Default.tienda_juegosConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DesarrolladoresTableAdapter" GeneratorDataComponentClassName="DesarrolladoresTableAdapter" Name="Desarrolladores" UserDataComponentName="DesarrolladoresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.Desarrolladores" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_desarrollador, Nombre_desarrollador FROM dbo.Desarrolladores</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_desarrollador" DataSetColumn="id_desarrollador" />
+              <Mapping SourceColumn="Nombre_desarrollador" DataSetColumn="Nombre_desarrollador" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="tienda_juegosDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="tienda_juegosDataSet5" msprop:Generator_UserDSName="tienda_juegosDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Desarrolladores" msprop:Generator_TableClassName="DesarrolladoresDataTable" msprop:Generator_TableVarName="tableDesarrolladores" msprop:Generator_TablePropName="Desarrolladores" msprop:Generator_RowDeletingName="DesarrolladoresRowDeleting" msprop:Generator_RowChangingName="DesarrolladoresRowChanging" msprop:Generator_RowEvHandlerName="DesarrolladoresRowChangeEventHandler" msprop:Generator_RowDeletedName="DesarrolladoresRowDeleted" msprop:Generator_UserTableName="Desarrolladores" msprop:Generator_RowChangedName="DesarrolladoresRowChanged" msprop:Generator_RowEvArgName="DesarrolladoresRowChangeEvent" msprop:Generator_RowClassName="DesarrolladoresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_desarrollador" msprop:Generator_ColumnVarNameInTable="columnid_desarrollador" msprop:Generator_ColumnPropNameInRow="id_desarrollador" msprop:Generator_ColumnPropNameInTable="id_desarrolladorColumn" msprop:Generator_UserColumnName="id_desarrollador" type="xs:int" />
+              <xs:element name="Nombre_desarrollador" msprop:Generator_ColumnVarNameInTable="columnNombre_desarrollador" msprop:Generator_ColumnPropNameInRow="Nombre_desarrollador" msprop:Generator_ColumnPropNameInTable="Nombre_desarrolladorColumn" msprop:Generator_UserColumnName="Nombre_desarrollador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Desarrolladores" />
+      <xs:field xpath="mstns:id_desarrollador" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

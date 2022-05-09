@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="tienda_juegosDataSet7" targetNamespace="http://tempuri.org/tienda_juegosDataSet7.xsd" xmlns:mstns="http://tempuri.org/tienda_juegosDataSet7.xsd" xmlns="http://tempuri.org/tienda_juegosDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="tienda_juegosConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="tienda_juegosConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.proyecto_BDA.My.MySettings.GlobalReference.Default.tienda_juegosConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JuegosTableAdapter" GeneratorDataComponentClassName="JuegosTableAdapter" Name="Juegos" UserDataComponentName="JuegosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.Juegos" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_juego, Nombre, Plataformas, Precio FROM dbo.Juegos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_juego" DataSetColumn="id_juego" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Plataformas" DataSetColumn="Plataformas" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="NintendoTableAdapter" GeneratorDataComponentClassName="NintendoTableAdapter" Name="Nintendo" UserDataComponentName="NintendoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.Nintendo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_juego, Nombre, Plataformas, Precio FROM dbo.Nintendo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_juego" DataSetColumn="id_juego" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Plataformas" DataSetColumn="Plataformas" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OTROSTableAdapter" GeneratorDataComponentClassName="OTROSTableAdapter" Name="OTROS" UserDataComponentName="OTROSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.OTROS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_juego, Nombre, Plataformas, Precio FROM dbo.OTROS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_juego" DataSetColumn="id_juego" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Plataformas" DataSetColumn="Plataformas" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SONYTableAdapter" GeneratorDataComponentClassName="SONYTableAdapter" Name="SONY" UserDataComponentName="SONYTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.SONY" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_juego, Nombre, Plataformas, Precio FROM dbo.SONY</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_juego" DataSetColumn="id_juego" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Plataformas" DataSetColumn="Plataformas" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="XboxTableAdapter" GeneratorDataComponentClassName="XboxTableAdapter" Name="Xbox" UserDataComponentName="XboxTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="tienda_juegosConnectionString (MySettings)" DbObjectName="tienda_juegos.dbo.Xbox" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_juego, Nombre, Plataformas, Precio FROM dbo.Xbox</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_juego" DataSetColumn="id_juego" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Plataformas" DataSetColumn="Plataformas" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="tienda_juegosDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="tienda_juegosDataSet7" msprop:Generator_UserDSName="tienda_juegosDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Juegos" msprop:Generator_TableClassName="JuegosDataTable" msprop:Generator_TableVarName="tableJuegos" msprop:Generator_TablePropName="Juegos" msprop:Generator_RowDeletingName="JuegosRowDeleting" msprop:Generator_RowChangingName="JuegosRowChanging" msprop:Generator_RowEvHandlerName="JuegosRowChangeEventHandler" msprop:Generator_RowDeletedName="JuegosRowDeleted" msprop:Generator_UserTableName="Juegos" msprop:Generator_RowChangedName="JuegosRowChanged" msprop:Generator_RowEvArgName="JuegosRowChangeEvent" msprop:Generator_RowClassName="JuegosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_juego" msprop:Generator_ColumnVarNameInTable="columnid_juego" msprop:Generator_ColumnPropNameInRow="id_juego" msprop:Generator_ColumnPropNameInTable="id_juegoColumn" msprop:Generator_UserColumnName="id_juego" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plataformas" msprop:Generator_ColumnVarNameInTable="columnPlataformas" msprop:Generator_ColumnPropNameInRow="Plataformas" msprop:Generator_ColumnPropNameInTable="PlataformasColumn" msprop:Generator_UserColumnName="Plataformas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Nintendo" msprop:Generator_TableClassName="NintendoDataTable" msprop:Generator_TableVarName="tableNintendo" msprop:Generator_TablePropName="Nintendo" msprop:Generator_RowDeletingName="NintendoRowDeleting" msprop:Generator_RowChangingName="NintendoRowChanging" msprop:Generator_RowEvHandlerName="NintendoRowChangeEventHandler" msprop:Generator_RowDeletedName="NintendoRowDeleted" msprop:Generator_UserTableName="Nintendo" msprop:Generator_RowChangedName="NintendoRowChanged" msprop:Generator_RowEvArgName="NintendoRowChangeEvent" msprop:Generator_RowClassName="NintendoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_juego" msprop:Generator_ColumnVarNameInTable="columnid_juego" msprop:Generator_ColumnPropNameInRow="id_juego" msprop:Generator_ColumnPropNameInTable="id_juegoColumn" msprop:Generator_UserColumnName="id_juego" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plataformas" msprop:Generator_ColumnVarNameInTable="columnPlataformas" msprop:Generator_ColumnPropNameInRow="Plataformas" msprop:Generator_ColumnPropNameInTable="PlataformasColumn" msprop:Generator_UserColumnName="Plataformas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OTROS" msprop:Generator_TableClassName="OTROSDataTable" msprop:Generator_TableVarName="tableOTROS" msprop:Generator_TablePropName="OTROS" msprop:Generator_RowDeletingName="OTROSRowDeleting" msprop:Generator_RowChangingName="OTROSRowChanging" msprop:Generator_RowEvHandlerName="OTROSRowChangeEventHandler" msprop:Generator_RowDeletedName="OTROSRowDeleted" msprop:Generator_UserTableName="OTROS" msprop:Generator_RowChangedName="OTROSRowChanged" msprop:Generator_RowEvArgName="OTROSRowChangeEvent" msprop:Generator_RowClassName="OTROSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_juego" msprop:Generator_ColumnVarNameInTable="columnid_juego" msprop:Generator_ColumnPropNameInRow="id_juego" msprop:Generator_ColumnPropNameInTable="id_juegoColumn" msprop:Generator_UserColumnName="id_juego" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plataformas" msprop:Generator_ColumnVarNameInTable="columnPlataformas" msprop:Generator_ColumnPropNameInRow="Plataformas" msprop:Generator_ColumnPropNameInTable="PlataformasColumn" msprop:Generator_UserColumnName="Plataformas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SONY" msprop:Generator_TableClassName="SONYDataTable" msprop:Generator_TableVarName="tableSONY" msprop:Generator_TablePropName="SONY" msprop:Generator_RowDeletingName="SONYRowDeleting" msprop:Generator_RowChangingName="SONYRowChanging" msprop:Generator_RowEvHandlerName="SONYRowChangeEventHandler" msprop:Generator_RowDeletedName="SONYRowDeleted" msprop:Generator_UserTableName="SONY" msprop:Generator_RowChangedName="SONYRowChanged" msprop:Generator_RowEvArgName="SONYRowChangeEvent" msprop:Generator_RowClassName="SONYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_juego" msprop:Generator_ColumnVarNameInTable="columnid_juego" msprop:Generator_ColumnPropNameInRow="id_juego" msprop:Generator_ColumnPropNameInTable="id_juegoColumn" msprop:Generator_UserColumnName="id_juego" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plataformas" msprop:Generator_ColumnVarNameInTable="columnPlataformas" msprop:Generator_ColumnPropNameInRow="Plataformas" msprop:Generator_ColumnPropNameInTable="PlataformasColumn" msprop:Generator_UserColumnName="Plataformas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Xbox" msprop:Generator_TableClassName="XboxDataTable" msprop:Generator_TableVarName="tableXbox" msprop:Generator_TablePropName="Xbox" msprop:Generator_RowDeletingName="XboxRowDeleting" msprop:Generator_RowChangingName="XboxRowChanging" msprop:Generator_RowEvHandlerName="XboxRowChangeEventHandler" msprop:Generator_RowDeletedName="XboxRowDeleted" msprop:Generator_UserTableName="Xbox" msprop:Generator_RowChangedName="XboxRowChanged" msprop:Generator_RowEvArgName="XboxRowChangeEvent" msprop:Generator_RowClassName="XboxRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_juego" msprop:Generator_ColumnVarNameInTable="columnid_juego" msprop:Generator_ColumnPropNameInRow="id_juego" msprop:Generator_ColumnPropNameInTable="id_juegoColumn" msprop:Generator_UserColumnName="id_juego" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plataformas" msprop:Generator_ColumnVarNameInTable="columnPlataformas" msprop:Generator_ColumnPropNameInRow="Plataformas" msprop:Generator_ColumnPropNameInTable="PlataformasColumn" msprop:Generator_UserColumnName="Plataformas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Juegos" />
+      <xs:field xpath="mstns:id_juego" />
+    </xs:unique>
+    <xs:unique name="Nintendo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Nintendo" />
+      <xs:field xpath="mstns:id_juego" />
+    </xs:unique>
+    <xs:unique name="OTROS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OTROS" />
+      <xs:field xpath="mstns:id_juego" />
+    </xs:unique>
+    <xs:unique name="SONY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SONY" />
+      <xs:field xpath="mstns:id_juego" />
+    </xs:unique>
+    <xs:unique name="Xbox_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Xbox" />
+      <xs:field xpath="mstns:id_juego" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

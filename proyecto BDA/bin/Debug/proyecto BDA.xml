@@ -1,0 +1,911 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+proyecto BDA
+</name>
+</assembly>
+<members>
+<member name="T:proyecto_BDA.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.controlxbox">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.CTR">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.dbz">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.dualshock4">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.Ezio">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.ff7">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.Gow">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.joycons">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Close_Menu">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Menu_Extend">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Menu_Select">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Nav_Sound">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Save_Sound">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Select">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.KH_Unavailable">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.kh3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.ps4">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.re2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.smash">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.south_park">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.spiderman">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.star_wars">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.switch">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.tlou">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:proyecto_BDA.My.Resources.Resources.xbox">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet.productosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet.productosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet.productosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSetTableAdapters.productosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1.productosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1.productosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1.productosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1TableAdapters.productosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.clientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.DesarrolladorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.FacturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.productoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.ventasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.clientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.DesarrolladorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.FacturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.productoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.ventasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.clientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.DesarrolladorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.FacturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.productoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2.ventasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.clientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.DesarrolladorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.FacturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.productoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.ventasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3.productosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3.productosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3.productosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3TableAdapters.productosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4.productosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4.productosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4.productosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4TableAdapters.productosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5.DesarrolladoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5.DesarrolladoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5.DesarrolladoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5TableAdapters.DesarrolladoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.cliDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.DesarrolladoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.factDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.productDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.ventaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.cliRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.DesarrolladoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.factRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.productRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.ventaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.cliRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.DesarrolladoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.factRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.productRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6.ventaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.cliTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.DesarrolladoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.factTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.productTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.ventaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.JuegosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.NintendoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.OTROSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.SONYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.XboxDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.JuegosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.NintendoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.OTROSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.SONYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.XboxRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.JuegosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.NintendoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.OTROSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.SONYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7.XboxRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.JuegosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.NintendoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.OTROSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.SONYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.XboxTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(proyecto_BDA.tienda_juegosDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(proyecto_BDA.tienda_juegosDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(proyecto_BDA.tienda_juegosDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.UpdateAll(proyecto_BDA.tienda_juegosDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:proyecto_BDA.tienda_juegosDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
